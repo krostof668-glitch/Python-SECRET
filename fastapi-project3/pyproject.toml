@@ -1,0 +1,10 @@
+[project]
+name = "fastapi-project3"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard]>=0.142.2",
+    "pydantic>=2.13.5",
+    "sqlite-web>=0.8.2",
+    "sqlmodel>=0.0.47",
+]
